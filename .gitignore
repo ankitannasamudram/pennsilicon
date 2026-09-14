@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# Cocotb / simulation
+sim_build/
+*.vcd
+*.fst
+*.ghw
+*.wlf
+*.log
+*.jou
+*.str
+
+# EDA / synthesis outputs
+build/
+work/
+*.rpt
+*.dcp
+*.bit
+*.bin
+*.edf
+*.edif
+*.ngc
+*.ncd
+*.par
+*.map
+*.mrp
+*.xpr
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Physical design generated data
+physical/build/
+physical/reports/
